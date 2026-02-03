@@ -19,7 +19,7 @@ function Hero() {
                     {/* Center Image (The House) */}
                     <div className="col-12 col-md-4 order-1 order-md-2 position-relative p-3 p-md-0 z-0">
                         <img 
-                            src="./src/assets/Solar_House.png" 
+                            src="./assets/Solar_House.png" 
                             alt="Solar House" 
                             className="img-fluid main-house-img"
                         />
