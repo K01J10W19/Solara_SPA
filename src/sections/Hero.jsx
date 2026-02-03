@@ -1,4 +1,5 @@
 import React from 'react'
+import solarHouseImg from './assets/Solar_House.png';
 
 function Hero() {
     return (
@@ -19,7 +20,7 @@ function Hero() {
                     {/* Center Image (The House) */}
                     <div className="col-12 col-md-4 order-1 order-md-2 position-relative p-3 p-md-0 z-0">
                         <img 
-                            src="./assets/Solar_House.png" 
+                            src= {solarHouseImg}
                             alt="Solar House" 
                             className="img-fluid main-house-img"
                         />
