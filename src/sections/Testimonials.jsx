@@ -1,5 +1,4 @@
 import React from 'react'
-import solarHouseRealImg from './assets/Solar_House_Real.jpg';
 
 function Testimonials() {
     return (
@@ -15,7 +14,7 @@ function Testimonials() {
                     </p>
                     
                     <img 
-                        src= {solarHouseRealImg} 
+                        src= "/assets/Solar_House_Real.jpg"
                         alt="Modern solar home" 
                         className="img-fluid rounded-3 shadow-sm mb-4" 
                     />
